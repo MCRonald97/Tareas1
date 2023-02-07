@@ -1,0 +1,25 @@
+/*
+? Verifique si el valor está entre 1 y 12, de no estarlo muestre una alerta que diga
+“Valor invalido” y finalice el programa.
+? Si el valor ingresado es correcto, tiene que mostrar la estación a la que
+pertenece el mes con las siguientes condiciones:
+? Diciembre, Enero y Febrero pertenecen a invierno
+? Marzo, Abril y Mayo pertenecen a Primavera
+? Junio, Julio y Agosto pertenecen a Verano
+? Septiembre, Octubre y Noviembre pertenecen a Otoño */
+
+
+const mes= prompt("Ingrese el número de un mes");
+
+if (mes <= 3 ) {
+    console.log("Diciembre, Enero y Febrero pertenecen a invierno");
+} else if (mes <= 6){
+    console.log(" Marzo, Abril y Mayo pertenecen a Primavera");
+} else if (mes <= 9){
+    console.log("Junio, Julio y Agosto pertenecen a Verano");
+}else if (mes <= 12){
+    console.log("Septiembre, Octubre y Noviembre pertenecen a Otoño");
+} else {
+    alert("Valor invalido");
+    alert("Ronaldo Delgado Ortega 23001228")
+}
